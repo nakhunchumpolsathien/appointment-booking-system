@@ -3,7 +3,7 @@
 A simple FastAPI-based web app for booking appointments with JWT authentication and role-based access control.
 
 ## Prerequisites
-* Python 3.10+
+* Python 3.13
 * pip package manager
 
 ## Setup & Run
@@ -23,7 +23,9 @@ API Docs
 
     ReDoc → http://127.0.0.1:8000/redoc
 
-Default Accounts: <br>
+**Default Accounts: <br>**
 
-admin admin123  (Role Admin)  <br>
-alice  alice123  (Role User) <br>
+| Username | Password  | Role  |
+|----------|-----------|-------|
+| admin    | admin123  | Admin |
+| alice    | alice123  | User  |
